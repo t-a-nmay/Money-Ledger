@@ -1,0 +1,53 @@
+.btn-lg {
+    padding: 20px;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.btn-lg i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.container {
+    background-color: #333;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.modal-header {
+    background-color: #343a40;
+    color: white;
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+body {
+    background-image: url('/static/images/pexels-goumbik-317385.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+

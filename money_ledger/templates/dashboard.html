@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block title%}
+    Dashboard
+{% endblock %}
+
+{% block content %}
+<div class="container text-center mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <a href="/add_transaction" class="btn btn-primary btn-lg mx-3">
+                <i class="bi bi-plus-circle"></i><br>Add Transaction
+            </a>
+        </div>
+        <div class="col-md-6">
+            <a href="/transactions" class="btn btn-secondary btn-lg mx-3">
+                <i class="bi bi-list-check"></i><br>Your Transactions
+            </a>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

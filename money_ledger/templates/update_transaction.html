@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block title%} Update Transaction {% endblock %} 
+{% block content %}
+<body class="text-center">
+  <div class="container">
+    <form method="POST">
+      {{ form.hidden_tag() }}
+      <h1 class="h3 mb-3 font-weight-normal">Update Transaction</h1>
+      <br />
+      {{ form.amount.label }} {{ form.amount }}
+      <br />
+      {{ form.description.label }} {{ form.description }}
+      <br />
+      {{ form.type.label }} {{ form.type }}
+      <br />
+      {{ form.date.label }} {{ form.date(widget=DateInput()) }}
+      <br />
+
+      {{ form.submit(class="btn btn-lg btn-block btn-primary", value="Update") }}
+    </form>
+  </div>
+</body>
+{% endblock %}
