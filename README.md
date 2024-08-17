@@ -1,28 +1,53 @@
 #**Money Ledger**
+
 Money Ledger is a Flask-based web application designed to help users manage their personal finances. It allows users to track their income, expenses, and transfers, generate detailed reports, and visualize their financial data through charts and graphs.
 
 ##**Features**
-###**User Authentication**: Secure user registration and login.
-###**Transaction Management**: Add, update, and delete income, expense, and transfer transactions.
-###**Date Format Handling**: Dates are handled in DD-MM-YYYY format.
-###**Financial Reports**: Generate detailed reports of transactions with pie charts for visual representation.
-###**Responsive Design**: User-friendly interface with Bootstrap for a responsive and modern design.
-###**Data Visualization:** Visualize income, expenses, and transfers through pie charts.
-###**Flask-WTF Forms**: Seamlessly handle form submissions with validation.Getting Started
+###**User Authentication**:
+Secure user registration and login.
+
+###**Transaction Management**:
+Add, update, and delete income, expense, and transfer transactions.
+
+###**Date Format Handling**:
+Dates are handled in DD-MM-YYYY format.
+
+###**Financial Reports**:
+Generate detailed reports of transactions with pie charts for visual representation.
+
+###**Responsive Design**:
+User-friendly interface with Bootstrap for a responsive and modern design.
+
+###**Data Visualization**:
+Visualize income, expenses, and transfers through pie charts.
+
+###**Flask-WTF Forms**: 
+Seamlessly handle form submissions with validation.Getting Started
 
 ##**Installation**
-Clone the repository: git clone https://github.com/your-username/money-ledger.git
-Install the required packages: pip install -r requirements.txt
-Create a database: flask db init and flask db migrate and flask db upgrade
-Run the application: flask run
+**Clone the repository**: 
+git clone https://github.com/your-username/money-ledger.git
+**Install the required packages**:
+pip install -r requirements.txt
+**Create a database**: 
+flask db init and flask db migrate and flask db upgrade
+**Run the application******:
+flask run
 
 ##**Usage**
-Register for an account: /register
+Register for an account:
+/register
+
 Log in to your account: /login
+
 Add transactions: /add_transaction
+
 View transactions: /transactions
+
 Generate transaction report: /transactions/report
+
 Update transactions: /transactions/<int:transaction_id>/update
+
 Delete transactions: /transactions/<int:transaction_id>/delete
 
 ##**Project Structure**
